@@ -67,6 +67,8 @@ ul {
 
 .hero-text>button {
   background: #3882f6;
+  color: #e5e7eb;
+  font-weight: 600;
 }
 
 .hero-img>img {
