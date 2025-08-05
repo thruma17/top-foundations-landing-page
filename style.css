@@ -60,6 +60,10 @@ ul {
   background: #3882f6;
 }
 
+.hero-img>img {
+  max-width: 480px;
+}
+
 .section-1>h2 {
   font-size: 36px;
   color: #1f2937;
