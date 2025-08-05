@@ -125,13 +125,21 @@ ul {
 
 .section-2 {
   background: #e5e7eb;
+  display: flex;
+  flex-direction: column;
 }
 
 .quote {
   font-size: 36px;
-  font-weight: 200;
   font-style: italic;
   color: #1f2937;
+}
+
+.quote-author {
+  font-size: 24px;
+  font-weight: 600;
+  align-self: flex-end;
+  padding: 16px 32px;
 }
 
 .section-3 {
