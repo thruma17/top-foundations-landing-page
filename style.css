@@ -13,20 +13,41 @@ padding:0
 
 body {
   font-family: 'Roboto', sans-serif;
+  max-width: 1080px;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
   background: #1f2937;
   display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
 }
 
 .logo {
   font-size: 24px;
+  font-weight: 600;
   color: #f9faf8;
+}
+
+.nav {
+}
+
+.nav>ul {
+  display: flex;
+  gap: 16px;
+}
+
+ul {
+  list-style-type: none
 }
 
 .hero {
   background: #1f2937;
+  display: flex;
 }
 
 .hero-text>h1 {
