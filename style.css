@@ -1,14 +1,18 @@
 html {
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
-*, * :before, * :after {
-box-sizing: inherit;
+
+*,
+* :before,
+* :after {
+  box-sizing: inherit;
 }
-*{
-margin: 0;
-padding:0
+
+* {
+  margin: 0;
+  padding: 0
 }
 
 body {
@@ -38,9 +42,6 @@ body {
   font-size: 24px;
   font-weight: 600;
   color: #f9faf8;
-}
-
-.nav {
 }
 
 .nav>ul {
