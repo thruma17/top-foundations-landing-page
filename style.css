@@ -13,9 +13,16 @@ padding:0
 
 body {
   font-family: 'Roboto', sans-serif;
-  max-width: 1080px;
   display: flex;
   flex-direction: column;
+}
+
+.hero-text,
+.hero-img {
+  display: flex;
+  justify-content: center;
+  flex: 1;flex-direction: column;
+  align-items: center;
 }
 
 .header {
@@ -48,6 +55,7 @@ ul {
 .hero {
   background: #1f2937;
   display: flex;
+  align-items: center;
 }
 
 .hero-text>h1 {
