@@ -94,6 +94,10 @@ ul {
   padding: 8px 16px;
 }
 
+.section-1 {
+  padding-top: 16px;
+}
+
 .section-1>h2 {
   font-size: 36px;
   color: #1f2937;
