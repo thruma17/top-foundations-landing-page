@@ -4,9 +4,7 @@ html {
   box-sizing: border-box;
 }
 
-*,
-* :before,
-* :after {
+*, * :before, * :after {
   box-sizing: inherit;
 }
 
@@ -21,8 +19,7 @@ body {
   flex-direction: column;
 }
 
-.hero-text,
-.hero-img {
+.hero-text, .hero-img {
   display: flex;
   justify-content: center;
   flex: auto;
@@ -53,8 +50,7 @@ ul {
   list-style-type: none
 }
 
-.header a,
-button a {
+.header a, button a {
   text-decoration: none;
   color: inherit;
 }
@@ -70,13 +66,11 @@ button a {
   padding: 96px;
 }
 
-.header,
-footer {
+.header, footer {
   padding: 32px;
 }
 
-.hero,
-.section-3 {
+.hero, .section-3 {
   padding: 96px;
 }
 
@@ -96,7 +90,8 @@ footer {
 .hero-text>button {
   background: #3882f6;
   color: #e5e7eb;
-  font-weight: 600;border: solid 2px white;
+  font-weight: 600;
+  border: solid 2px white;
 }
 
 .hero-img>img {
@@ -157,19 +152,14 @@ footer {
   padding: 32px;
   display: flex;
   justify-content: space-evenly;
-
 }
 
-.cta-blue,
-.cta-button {
+.cta-blue, .cta-button {
   background: #3882f6;
   color: #f9faf8;
 }
 
-.sign-up,
-.carousel-item>img,
-.cta-button,
-.cta-blue {
+.sign-up, .carousel-item>img, .cta-button, .cta-blue {
   border-radius: 10px;
 }
 
@@ -187,8 +177,7 @@ footer {
   padding: 32px 360px;
 }
 
-.header,
-.hero-text>p {
+.header, .hero-text>p {
   font-size: 18px;
   color: #e5e7eb;
 }
