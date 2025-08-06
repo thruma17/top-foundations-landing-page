@@ -59,19 +59,25 @@ button a {
   color: inherit;
 }
 
-.section-1,
+.section-1 {
+  display: flex;
+  padding: 32px 96px 96px;
+  flex-direction: column;
+  gap: 32px;
+}
+
 .section-2 {
-  padding: 96px 360px;
+  padding: 96px;
 }
 
 .header,
 footer {
-  padding: 32px 270px;
+  padding: 32px;
 }
 
 .hero,
 .section-3 {
-  padding: 96px 270px;
+  padding: 96px;
 }
 
 .hero {
@@ -102,16 +108,11 @@ footer {
   padding: 8px 32px;
 }
 
-.section-1 {
-  padding-top: 16px;
-}
-
 .section-1>h2 {
   font-size: 36px;
   color: #1f2937;
   font-weight: 900;
   text-align: center;
-  padding: 32px;
 }
 
 .carousel {
