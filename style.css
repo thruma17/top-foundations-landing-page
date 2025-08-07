@@ -26,6 +26,7 @@ ul {
 }
 
 .navbar {
+  background: #1f2937;
   padding: 16px;
 }
 
@@ -46,7 +47,7 @@ ul {
   gap: 32px;
 }
 
-.header a,
+.navbar a,
 button a {
   text-decoration: none;
   color: white;
@@ -69,15 +70,9 @@ button a {
   gap: 16px;
 }
 
-.header,
+.navbar,
 footer {
   padding: 32px;
-}
-
-.hero,
-.about,
-.signup {
-  padding: 96px;
 }
 
 .hero {
@@ -183,7 +178,7 @@ footer {
   padding: 32px 360px;
 }
 
-.header,
+.navbar,
 .hero-text > p {
   font-size: 18px;
   color: #e5e7eb;
