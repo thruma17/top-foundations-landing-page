@@ -4,13 +4,15 @@ html {
   box-sizing: border-box;
 }
 
-*, * :before, * :after {
+*,
+* :before,
+* :after {
   box-sizing: inherit;
 }
 
 * {
   margin: 0;
-  padding: 0
+  padding: 0;
 }
 
 body {
@@ -19,21 +21,18 @@ body {
   flex-direction: column;
 }
 
-.hero-text, .hero-img {
-  display: flex;
-  justify-content: center;
-  flex: auto;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 16px;
+ul {
+  list-style-type: none;
 }
 
-.header {
-  background: #1f2937;
+.navbar {
+  padding: 16px;
+}
+
+.container {
   display: flex;
-  flex: 1;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -42,36 +41,42 @@ body {
   color: #f9faf8;
 }
 
-.nav>ul {
+.nav {
   display: flex;
   gap: 32px;
 }
 
-ul {
-  list-style-type: none
-}
-
-.header a, button a {
+.header a,
+button a {
   text-decoration: none;
   color: white;
 }
 
-.section-1 {
+.services {
   display: flex;
   padding: 32px 96px 96px;
   flex-direction: column;
   gap: 32px;
 }
 
-.section-2 {
-  padding: 96px;
+.hero-text,
+.hero-img {
+  display: flex;
+  justify-content: center;
+  flex: auto;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
 }
 
-.header, footer {
+.header,
+footer {
   padding: 32px;
 }
 
-.hero, .section-3 {
+.hero,
+.about,
+.signup {
   padding: 96px;
 }
 
@@ -82,28 +87,28 @@ ul {
   gap: 32px;
 }
 
-.hero-text>h1 {
+.hero-text > h1 {
   font-size: 48px;
   font-weight: 900;
   color: white;
 }
 
-.hero-text>button {
+.hero-text > button {
   background: #3882f6;
   color: #e5e7eb;
   font-weight: 600;
   border: solid 2px white;
 }
 
-.hero-img>img {
+.hero-img > img {
   max-width: 540px;
 }
 
-.sign-up, .cta-button {
+.cta-button {
   padding: 8px 48px;
 }
 
-.section-1>h2 {
+.services > h2 {
   font-size: 36px;
   color: #1f2937;
   font-weight: 900;
@@ -124,12 +129,12 @@ ul {
   width: 150px;
 }
 
-.carousel-item>img {
+.carousel-item > img {
   width: 150px;
   height: 150px;
 }
 
-.section-2 {
+.about {
   background: #e5e7eb;
   display: flex;
   flex-direction: column;
@@ -154,12 +159,15 @@ ul {
   justify-content: space-evenly;
 }
 
-.cta-blue, .cta-button {
+.cta-blue,
+.cta-button {
   background: #3882f6;
   color: #f9faf8;
 }
 
-.sign-up, .carousel-item>img, .cta-button, .cta-blue {
+.carousel-item > img,
+.cta-button,
+.cta-blue {
   border-radius: 10px;
 }
 
@@ -175,7 +183,8 @@ footer {
   padding: 32px 360px;
 }
 
-.header, .hero-text>p {
+.header,
+.hero-text > p {
   font-size: 18px;
   color: #e5e7eb;
 }
