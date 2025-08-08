@@ -23,6 +23,10 @@ ul {
   list-style-type: none;
 }
 
+img {
+  max-width: 100%;
+}
+
 .navbar,
 .hero,
 footer {
@@ -30,19 +34,21 @@ footer {
 }
 
 .navbar .container {
-  display: flex;
   justify-content: space-between;
 }
 
 .container {
   display: flex;
+  flex: 1;
   align-items: center;
-  width: 1080px;
+  max-width: 1080px;
   justify-content: center;
-  padding: 32px 0;
+  padding: 32px 32px;
 }
 
 .logo,
+.navbar a,
+.cta-button a,
 .cta-blue,
 .cta-button {
   color: #f9faf8;
@@ -61,7 +67,6 @@ footer {
 .navbar a,
 .cta-button a {
   text-decoration: none;
-  color: #f9faf8;
 }
 
 .navbar,
@@ -76,16 +81,14 @@ footer {
 .hero .container,
 .about .container,
 .signup .container {
-  padding: 96px 0;
+  padding: 96px 32px;
 }
 
 .hero .container {
-  display: flex;
   gap: 48px;
 }
 
 .services .container {
-  display: flex;
   flex-direction: column;
   padding-bottom: 96px;
   gap: 32px;
@@ -108,7 +111,7 @@ footer {
   border: solid 2px white;
 }
 
-.hero-img img {
+.hero-img {
   max-width: 540px;
 }
 
@@ -146,11 +149,9 @@ footer {
 
 .about {
   background: #e5e7eb;
-  display: flex;
 }
 
 .about .container {
-  display: flex;
   flex-direction: column;
   padding-left: 96px;
   padding-right: 96px;
@@ -171,9 +172,7 @@ footer {
 
 .cta-blue {
   padding: 32px;
-  display: flex;
   flex: 1;
-  justify-content: space-evenly;
 }
 
 .cta-blue,
@@ -185,6 +184,8 @@ footer {
 .cta-button,
 .cta-blue {
   border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .cta-button {
