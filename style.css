@@ -189,6 +189,7 @@ footer {
 }
 
 .cta-button {
+  font-size: 16px;
   font-weight: 700;
   border: solid 2px white;
 }
