@@ -145,6 +145,8 @@ footer {
 .carousel-item img {
   width: 150px;
   height: 150px;
+  border: solid 2px #3882f6;
+  box-sizing: content-box;
 }
 
 .about {
